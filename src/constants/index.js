@@ -90,7 +90,7 @@ export const PROJECTS = [
     title: "2D Animation Game (Attari breakout)",
     image: project5,
     description:
-      "Display the adjacency list of the graph. Find and display the Minimum spanning tree (Prims Algoritm). Find and display the shortest path from a source node to a target node (Dijkstra's Algorithm). Count the total number of nodes. Display the node with the minimum and maximum edges.",
+      "Attari breakout game developed using principles of object oriented programming. A 2D animation game. Animations handled with the help of external library SDL2. ",
     technologies: ["C++","SDL2"],
     delay: 1.2,
     link:""
