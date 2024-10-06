@@ -104,8 +104,8 @@ export const EDUCATION =
     institute: "Ghulam Ishaq Khan Institute Of engineering and Technology",
     image: giki,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.A fully functional e-commerce website with features like product listing, shopping cart, and user authentication",
-    skills: ["OOP", "DSA", "Problem Sloving", "Database"],
+      "I earned my Bachelor of Science in Bachelor's in Computer Engineering, where I developed a strong foundation in programming in C++, OOP, Data structures and Algorithm, and design principles. My studies included Object Oriented Programming in C++, Data Structures and algorithms, Databases, Software Engineering, Advance OOP analysis, Introduction to AI, Machine learning, Deep neural networks and DEVOPS which sparked my interest in Software Engineering.",
+    skills: ["OOP", "DSA", "Problem Sloving", "Database", "DEVOPS"],
     delay: 0.5
   };
 

@@ -19,7 +19,7 @@ const Education = () => {
                         initial={{ x: -100, opacity: 0 }}
                         transition={{ duration: EDUCATION.delay }}
                         className="w-full smx:flex smx:justify-center sm:justify-start lg:w-1/4">
-                        <img src={EDUCATION.image} alt={EDUCATION.title} width={150} height={150} className="mb-6 rounded" />
+                        <img src={EDUCATION.image} alt={EDUCATION.title} width={200} height={150} className="mb-6 rounded" />
                     </motion.div>
                     <motion.div
                         whileInView={{ x: 0, opacity: 1 }}

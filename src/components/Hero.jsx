@@ -1,6 +1,7 @@
 import { HERO_CONTENT } from "../constants"
 import { motion } from "framer-motion"
 import {IMAGES} from "../constants"
+import Resume from "../assets/Muhammad_Ahmed_Resume`.pdf"
 
 
 const container = (delay) => ({
@@ -44,7 +45,7 @@ function Hero() {
                         className="font-semibold p-2 mb-8 rounded-full bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 text-neutral-800"
                         
                         
-                        ><a href="src/assets/Muhammad_Ahmed_Resume`.pdf" download='Resume'>Download Resume</a>
+                        ><a href={Resume} download='Resume'>Download Resume</a>
                             
                         </motion.button>
                     </div>
