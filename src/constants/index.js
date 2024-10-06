@@ -5,7 +5,7 @@ import project4 from "../assets/projects/project-4.png";
 import project5 from "../assets/projects/project-5.png";
 import project6 from "../assets/projects/project-6.png";
 import image1 from "../assets/Ahmed_image.png";
-import image1 from "../assets/Ahmedwork.png";
+import image2 from "../assets/Ahmedwork.png";
 import giki from "../assets/projects/Giki.png";
 
 
