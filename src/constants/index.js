@@ -4,7 +4,10 @@ import project3 from "../assets/projects/project-3.png";
 import project4 from "../assets/projects/project-4.png";
 import project5 from "../assets/projects/project-5.png";
 import project6 from "../assets/projects/project-6.png";
+import image1 from "../assets/Ahmed_image.png";
+import image1 from "../assets/Ahmedwork.png";
 import giki from "../assets/projects/Giki.png";
+
 
 export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With one year of hands-on experience, I have honed my skills in front-end technologies like React, as well as back-end technologies like Node.js, Flask MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
@@ -110,6 +113,11 @@ export const CONTACT = {
   address: "B-Block Phase-1 Johar Town , Lahore | LH 54782 ",
   phoneNo: "+92 300 6999058",
   email: "muhammed091ahmed@gmail.com",
+};
+
+export const IMAGES = {
+  img1: image1,
+  img2: image2
 };
 
 

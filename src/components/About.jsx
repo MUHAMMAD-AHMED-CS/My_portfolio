@@ -19,7 +19,7 @@ const About = () => {
                         initial={{ x: -100, opacity: 0 }}
                         transition={{ duration: 0.5 }}
                         className="flex items-center justify-center">
-                        <img className="rounded-2xl lg:w-9/12" src="src\assets\Ahmedwork.webp" alt="about" />
+                        <img className="rounded-2xl lg:w-9/12" src={IMAGES.img2} alt="about" />
                     </motion.div>
 
                 </div>

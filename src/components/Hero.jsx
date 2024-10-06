@@ -1,5 +1,6 @@
 import { HERO_CONTENT } from "../constants"
 import { motion } from "framer-motion"
+import {IMAGES} from "../constants"
 
 
 const container = (delay) => ({
@@ -55,7 +56,7 @@ function Hero() {
                             animate={{ x: 0, opacity: 1 }}
                             transition={{ duration: 1, delay: 1.2 }}
 
-                            className="rounded-2xl lg:w-9/12" src="src\assets\Ahmed_image.webp" alt="Muhammad Ahmed" />
+                            className="rounded-2xl lg:w-9/12" src={IMAGES.img1} alt="Muhammad Ahmed" />
                     </div>
                 </div>
             </div>
