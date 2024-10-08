@@ -1,7 +1,7 @@
 import { HERO_CONTENT } from "../constants"
 import { motion } from "framer-motion"
 import {IMAGES} from "../constants"
-import Resume from "../assets/Muhammad_Ahmed_Resume`.pdf"
+import Resume from "../assets/Muhammad_Ahmed_Resume_SE.pdf"
 
 
 const container = (delay) => ({
