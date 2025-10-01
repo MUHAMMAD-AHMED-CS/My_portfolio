@@ -15,6 +15,14 @@ export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer w
 
 export const EXPERIENCES = [
   {
+    year: "Sep-2024 - Present",
+    role: "Associate Software Engineer",
+    company: "Ebryx",
+    description: `Worked as a core team member on Invisily (ZTNA security product), maintaining and developing three core components: Controller (Python), Gateway (C++), and Sniffer (C). Implemented multi-tenancy and enterprise security policies (DLP, internet access). Optimized system scalability, boosting controller capacity from 1K → 10K+ clients and improving throughput from 10 → 200 logins/sec. Resolved gateway/database bottlenecks and ensured reliable client sessions by optimizing DB operations and analyzing packets with Wireshark/tshark.`,
+    technologies: ["Python", "C++", "C", "MySQL", "Wireshark", "Tshark", "Networking"],
+    delay: 0.3
+  },
+  {
     year: "July-2024 - Sep-2024",
     role: "Embedded Software Engineer",
     company: "Software Motion.",
