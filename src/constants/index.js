@@ -4,6 +4,7 @@ import project3 from "../assets/projects/project-3.png";
 import project4 from "../assets/projects/project-4.png";
 import project5 from "../assets/projects/project-5.png";
 import project6 from "../assets/projects/project-6.png";
+import project7 from "../assets/projects/project-7.png";
 import image1 from "../assets/Ahmed_image.png";
 import image2 from "../assets/Ahmedwork.png";
 import giki from "../assets/projects/Giki.png";
@@ -51,7 +52,7 @@ export const EXPERIENCES = [
 export const PROJECTS = [
   {
     title: "CoterGlobal Careers Portal & Website",
-    image: project1,
+    image: project7,
     description:
       "Developed and deployed the corporate website and a Careers portal on AWS serverless architecture. Implemented job search, job details, and email APIs with Django + MongoDB backend, integrated with a React + TypeScript frontend.",
     technologies: ["React", "TypeScript", "Django", "MongoDB", "AWS Serverless"],
@@ -60,7 +61,7 @@ export const PROJECTS = [
   },
   {
     title: "PsychPilot (Therapy-chatbot)",
-    image: project2,
+    image: project1,
     description:
       "A fully functional Therapy chatbot website with features like personalized chats, showing previous chatlogs, and user authentication and authorization.",
     technologies: ["HTML", "CSS", "React", "Node.js", "Firebase", "Firestore", "Pinecone"],
@@ -69,7 +70,7 @@ export const PROJECTS = [
   },
   {
     title: "Skin cancer Detection website",
-    image: project3,
+    image: project2,
     description:
       "An application the detection of Skin cancer mainly manalona with in few secs. This app needs a dermoscopic image of the tumor of malanoma and it classify the image in malignant or benign based on the info image have.",
     technologies: ["HTML", "CSS", "React", "Flask", "Densenet-210", "Numpy", "Tensorflow"],
@@ -78,7 +79,7 @@ export const PROJECTS = [
   },
   {
     title: "Portfolio Website",
-    image: project4,
+    image: project3,
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
     technologies: ["HTML", "Tailwind-CSS", "React", "Framer motion"],
@@ -87,7 +88,7 @@ export const PROJECTS = [
   },
   {
     title: "Walmart Sales predection",
-    image: project5,
+    image: project4,
     description:
       "This project is a web application for predicting Walmart sales & checking inventory. It provides a user interface for predicting weekly sales and checking inventory levels based on user input Users can input their email address to receive predictions and inventory data via email.",
     technologies: ["HTML","CSS" ,"JavaScript","Flask","Machine learning"],
@@ -96,7 +97,7 @@ export const PROJECTS = [
   },
   {
     title: "Graph processing",
-    image: project6,
+    image: project5,
     description:
       "Display the adjacency list of the graph. Find and display the Minimum spanning tree (Prims Algoritm). Find and display the shortest path from a source node to a target node (Dijkstra's Algorithm). Count the total number of nodes. Display the node with the minimum and maximum edges.",
     technologies: ["C++","SDL2"],
@@ -105,7 +106,7 @@ export const PROJECTS = [
   },
   {
     title: "2D Animation Game (Attari breakout)",
-    image: project7,
+    image: project6,
     description:
       "Attari breakout game developed using principles of object oriented programming. A 2D animation game. Animations handled with the help of external library SDL2. ",
     technologies: ["C++","SDL2"],
