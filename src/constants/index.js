@@ -9,9 +9,9 @@ import image2 from "../assets/Ahmedwork.png";
 import giki from "../assets/projects/Giki.png";
 
 
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With one year of hands-on experience, I have honed my skills in front-end technologies like React, as well as back-end technologies like Node.js, Flask MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+export const HERO_CONTENT = `I am a passionate software engineer specializing in full-stack and system-level development, with hands-on experience in building scalable applications and security solutions. Over the past year, I have contributed to enterprise-grade products, working across front-end (React, TypeScript), back-end (Django, Node.js, Flask), databases (MySQL, PostgreSQL, MongoDB), and system-level components (Python, C/C++). My goal is to leverage my expertise in both web technologies and secure networking systems to deliver innovative solutions that are robust, efficient, and impactful.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 1 years of experience, I have worked with a variety of technologies, including React, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active and exploring new technologies.`;
+export const ABOUT_TEXT = `I am a dedicated and versatile software engineer with a strong foundation in full-stack development and system-level programming. With professional experience at Ebryx, I have worked on core components of a Zero Trust Network Access (ZTNA) security solution, optimizing scalability and reliability for thousands of clients. On the web side, I have developed and deployed production-grade applications using React, TypeScript, Django, and AWS serverless architectures. I thrive in collaborative environments, enjoy solving complex technical challenges, and continuously push myself to learn and adapt. Outside of coding, I enjoy staying active, experimenting with new technologies, and contributing to impactful projects.`;  
 
 export const EXPERIENCES = [
   {
@@ -19,7 +19,7 @@ export const EXPERIENCES = [
     role: "Associate Software Engineer",
     company: "Ebryx",
     description: `Worked as a core team member on Invisily (ZTNA security product), maintaining and developing three core components: Controller (Python), Gateway (C++), and Sniffer (C). Implemented multi-tenancy and enterprise security policies (DLP, internet access). Optimized system scalability, boosting controller capacity from 1K → 10K+ clients and improving throughput from 10 → 200 logins/sec. Resolved gateway/database bottlenecks and ensured reliable client sessions by optimizing DB operations and analyzing packets with Wireshark/tshark.`,
-    technologies: ["Python", "C++", "C", "MySQL", "Wireshark", "Tshark", "Networking"],
+    technologies: ["Python", "C++", "C", "MySQL", "Wireshark", "Tshark", "Networking","SQL"],
     delay: 0.3
   },
   {
@@ -43,15 +43,24 @@ export const EXPERIENCES = [
     role: "Event Coordinator",
     company: "Institution Of Engineering and Technology on Campus-GIKI",
     description: `Coordinated a national event Giki Innovation Summit (GIS) national event and led team of 80+ students. Registered 100+ students, facilitated through liaison drives and promotional activities. Secured 200,000 PKR sponsorship, initiating dialogues with multiple companies. Increased Social media visibility and engagement upto 150%.`,
-    technologies: ["Leadership", "Event Management", "Communication skills", "Postgres"],
+    technologies: ["Leadership", "Event Management", "Communication skills"],
     delay: 0.9
   }
 ];
 
 export const PROJECTS = [
   {
-    title: "PsychPilot (Therapy-chatbot)",
+    title: "CoterGlobal Careers Portal & Website",
     image: project1,
+    description:
+      "Developed and deployed the corporate website and a Careers portal on AWS serverless architecture. Implemented job search, job details, and email APIs with Django + MongoDB backend, integrated with a React + TypeScript frontend.",
+    technologies: ["React", "TypeScript", "Django", "MongoDB", "AWS Serverless"],
+    delay: 0.3,
+    link: "https://coterglobal.com/"
+  },
+  {
+    title: "PsychPilot (Therapy-chatbot)",
+    image: project2,
     description:
       "A fully functional Therapy chatbot website with features like personalized chats, showing previous chatlogs, and user authentication and authorization.",
     technologies: ["HTML", "CSS", "React", "Node.js", "Firebase", "Firestore", "Pinecone"],
@@ -69,7 +78,7 @@ export const PROJECTS = [
   },
   {
     title: "Portfolio Website",
-    image: project2,
+    image: project4,
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
     technologies: ["HTML", "Tailwind-CSS", "React", "Framer motion"],
@@ -78,7 +87,7 @@ export const PROJECTS = [
   },
   {
     title: "Walmart Sales predection",
-    image: project6,
+    image: project5,
     description:
       "This project is a web application for predicting Walmart sales & checking inventory. It provides a user interface for predicting weekly sales and checking inventory levels based on user input Users can input their email address to receive predictions and inventory data via email.",
     technologies: ["HTML","CSS" ,"JavaScript","Flask","Machine learning"],
@@ -87,7 +96,7 @@ export const PROJECTS = [
   },
   {
     title: "Graph processing",
-    image: project4,
+    image: project6,
     description:
       "Display the adjacency list of the graph. Find and display the Minimum spanning tree (Prims Algoritm). Find and display the shortest path from a source node to a target node (Dijkstra's Algorithm). Count the total number of nodes. Display the node with the minimum and maximum edges.",
     technologies: ["C++","SDL2"],
@@ -96,7 +105,7 @@ export const PROJECTS = [
   },
   {
     title: "2D Animation Game (Attari breakout)",
-    image: project5,
+    image: project7,
     description:
       "Attari breakout game developed using principles of object oriented programming. A 2D animation game. Animations handled with the help of external library SDL2. ",
     technologies: ["C++","SDL2"],
